@@ -1,0 +1,61 @@
+body {
+
+}
+
+.main-section {
+  position: relative;
+  width: 1366px;
+  margin: 0 auto;
+  padding: 0 74px;
+}
+
+/*Шапка*/
+
+.main-header {
+  background-color: #fbebea;
+}
+
+.main-header .logo,
+.main-header .main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 55px;
+}
+
+.main-header .main-navigation {
+  margin-top: 59px;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.main-navigation li {
+  margin: 0;
+  margin-left: 44px;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-navigation li:last-child {
+  margin-left: 200px;
+}
+
+.main-navigation a {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2d2829;
+}
+
+.main-navigation a:focus,
+.main-navigation a:hover {
+  color: #f50049;
+}
